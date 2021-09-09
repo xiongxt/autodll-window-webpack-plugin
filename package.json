@@ -1,0 +1,20 @@
+{
+  "name": "autodll-window-webpack-plugin",
+  "version": "1.0.3",
+  "description": "a plugin for AutodllWebpackPlugin",
+  "author": "shawn <xxtao110@gmail.com>",
+  "main": "./src/autodll-window-webpack-plugin.js",
+  "files": [
+    "/src"
+  ],
+  "keywords": [
+    "Webpack4",
+    "AutodllWebpackPlugin",
+    "AutodllWindowWebpackPlugin",
+    "AutodllWebpackPlugin plugin"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.5"
+  }
+}

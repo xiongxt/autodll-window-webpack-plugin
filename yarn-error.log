@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\xxtao\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js publish
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\xxtao\AppData\Local\Microsoft\WindowsApps;;C:\Users\xxtao\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\xxtao\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.4.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/-/user/org.couchdb.user:xiongxiaotao: [conflict] User xiongxiaotao already exists
+      at Request.params.callback [as _callback] (C:\Users\xxtao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66992:18)
+      at Request.self.callback (C:\Users\xxtao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140763:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (C:\Users\xxtao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141735:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (C:\Users\xxtao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141657:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1329:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "autodll-window-webpack-plugin2",
+    "version": "1.0.0",
+    "description": "a plugin for AutodllWebpackPlugin",
+    "author": "shawn <xxtao110@gmail.com>",
+    "main": "./src/autodll-window-webpack-plugin.js",
+    "files": [
+      "/src"
+    ],
+    "keywords": [
+      "Webpack4",
+      "AutodllWebpackPlugin",
+      "AutodllWindowWebpackPlugin",
+      "AutodllWebpackPlugin plugin"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+      "webpack": "^4.41.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
