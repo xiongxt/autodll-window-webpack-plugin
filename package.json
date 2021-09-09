@@ -1,12 +1,16 @@
 {
   "name": "autodll-window-webpack-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a plugin for AutodllWebpackPlugin",
   "author": "shawn <xxtao110@gmail.com>",
   "main": "./src/autodll-window-webpack-plugin.js",
   "files": [
     "/src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiongxt/autodll-window-webpack-plugin.git"
+  },
   "keywords": [
     "Webpack4",
     "AutodllWebpackPlugin",
